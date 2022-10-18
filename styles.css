@@ -1,0 +1,171 @@
+:root{
+    --main-color: #1a1648;
+    --black: #141414;
+    --white: #fff;
+    --light-black:rgb(54, 54, 54);
+    --light-white:#fff9;
+    --dark-bg: rgba(0,0,0,.7);
+    --light-bg: #eee;
+    --border:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
+}
+
+body{
+    font-family: serif;
+}
+
+.welcome-content{
+    background: var(--light-bg);
+    margin: 2rem;    
+    padding: 1rem;
+}
+
+.welcome-content .welcome{
+    color: var(--main-color);
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+
+.welcome-content .welcome h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.welcome-content .welcome h3{
+    font-size: 2rem;
+}
+
+.welcome-content .content-form{
+    color: var(--black);
+    padding: 1.4rem;
+}
+
+.welcome-content .content-form .nav-item .nav-link.active{
+    background: var(--main-color);
+    color: var(--white);
+}
+
+.welcome-content .content-form .nav-item a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+
+.welcome-content .content-form .tab-content{
+    padding: 1.2rem;
+}
+
+
+.navbar{
+    background: var(--white);
+    color: var(--black);
+    padding: 1rem;
+}
+
+.navbar .navbar-brand{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-item{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.jumbotron{
+    background-color: #000000;
+    background: url(images/bg-1.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--black);
+    margin-top: 4.5rem;
+    padding: 10rem 0;
+    min-height: 35rem;
+}
+
+.jumbotron .welcome{
+    padding-top: 4.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.jumbotron .welcome h1{
+    font-size: 5rem;
+}
+
+.about{
+    background: var(--white);
+    height: 20rem;
+    width: 100%;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    color: var(--black);
+}
+
+.about .services{
+    color: var(--main-color);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.about .about-content{
+    padding-top: 2.5rem;
+    text-align: center;
+    font-size: 1.6rem;
+    text-shadow: var(--text-shadow);
+    color: var(--light-black);
+}
+
+.contact{
+    background: var(--main-color);
+    color: var(--light-white);
+    margin-top: 5rem;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: wrap;
+    gap: 6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .brand-details{
+    width: 15rem;
+}
+
+.contact .brand-details .brand-name{
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.contact .contact-details .contact-title{
+    color: var(--white);
+}
+
+.contact .link-details .link-title{
+    color: var(--white);
+}
+
+.contact .link-details li{
+    list-style: none;
+}
+
+.contact .link-details a{
+    text-decoration: none;
+    color: var(--light-white);
+}
+
+
+
+
+
+
